@@ -5,5 +5,4 @@
 /packages
 /TestServer/bin
 /TestServer/obj
-/.vs/RestCertificateAuthentication/v15
-/.vs/slnx.sqlite
+/.vs
