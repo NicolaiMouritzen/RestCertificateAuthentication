@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/packages
+/TestServer/bin
+/TestServer/obj
+/.vs/RestCertificateAuthentication/v15
+/.vs/slnx.sqlite
