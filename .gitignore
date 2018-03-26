@@ -6,3 +6,5 @@
 /TestServer/bin
 /TestServer/obj
 /.vs
+/QueryWithCertificate/bin/Debug
+/QueryWithCertificate/obj/Debug
