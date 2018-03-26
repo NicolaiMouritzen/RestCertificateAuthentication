@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\TestServer",
+    "\\TestServer\\App_Data",
+    "\\TestServer\\App_Start",
+    "\\TestServer\\Controllers",
+    "\\TestServer\\Models",
+    "\\TestServer\\obj",
+    "\\TestServer\\Properties"
+  ],
+  "SelectedNode": "\\index.txt",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestServer", "TestServer\TestServer.csproj", "{D2145C4F-D51B-4A3A-B81C-C17656C6C8AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ABDD215B-A022-446C-BA73-A51EB1D12253}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		root.cacert.pem = root.cacert.pem
+		root.conf = root.conf
+		root.privkey.pem = root.privkey.pem
+		root.server.conf = root.server.conf
+		Server.conf = Server.conf
+		servercert.csr = servercert.csr
+		servercert.pem = servercert.pem
+		servercert.pfx = servercert.pfx
+		serverkey.pem = serverkey.pem
+		TestCA.pfx = TestCA.pfx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2145C4F-D51B-4A3A-B81C-C17656C6C8AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2145C4F-D51B-4A3A-B81C-C17656C6C8AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2145C4F-D51B-4A3A-B81C-C17656C6C8AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2145C4F-D51B-4A3A-B81C-C17656C6C8AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {575F2D14-4806-43D9-B872-6D0744067758}
+	EndGlobalSection
+EndGlobal
