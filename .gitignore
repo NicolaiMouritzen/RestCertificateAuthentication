@@ -8,3 +8,7 @@
 /.vs
 /QueryWithCertificate/bin/Debug
 /QueryWithCertificate/obj/Debug
+/QueryWithCertificateCpp/Debug
+/QueryWithCertificateCpp/x64/Debug
+/QueryWithCertificateCpp/QueryWithCertificateCpp.vcxproj.user
+/x64/Debug

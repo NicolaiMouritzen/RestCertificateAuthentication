@@ -47,9 +47,9 @@ You should now be able to create a website using the server certificate.
 4. Modify your hostfile to redirect to your website as the hostname must match the certificate DNS entries.
 5. Test your website using the HTTPS binding.
 
-
-
-Make the client certificate:
-makecert -a sha256 -pe -n "CN=ClientAuthentication" -b 03/25/2018 -e 03/25/2019 -eku 1.3.6.1.5.5.7.3.2 -is root -ir localmachine -in TestCertRoot -ss my -sr currentuser -len 2048
-
 Use the windows MMC with certificate snapin to verify and export the certificates.
+
+Use the IIS manager to configure your website to require SSL and require a client certificate.
+Test this setup using Chrome or IE by browsing your site, this should promt you to select a certificate from you personal certificate store with which to identify yourself.
+
+Now you may run the C# test program to test if the connection works as intended, make sure to update the certificate thumbprint as neccessary.
